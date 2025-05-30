@@ -26,7 +26,7 @@ id: 34b03d03-a113-467f-a1c9-65bc6b446220
 
 Normally when you have data stored in a named array format perhaps created by the [array fieldtype](/fieldtypes/array), you would need to know the keys to render data in your view.
 
-Using the `foreach` tag you can pass in variable name as the second argument in the tag name and loop through the data using `{{ key }}` and `{{ value }}`.
+Using the `foreach` tag you can pass in variable name as the second argument in the tag name and loop through the data using `{{ key }}` and `{{ value }}`. The `as` parameter may be used to change the name of the `key` and `value` variables inside the loop. 
 
 ```yaml
 company_info:
